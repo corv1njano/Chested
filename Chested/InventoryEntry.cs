@@ -7,7 +7,7 @@ namespace Chested
     {
         private readonly int _slotId;
         private readonly List<MinecraftNBT> _minecraftNBTs = new List<MinecraftNBT>();
-        private string itemName = "";
+        private string itemName = string.Empty;
         private int amount = 1;
 
         public InventoryEntry(int slotId)
