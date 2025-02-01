@@ -24,7 +24,7 @@ namespace Chested
         public MinecraftEnchantment(string enchantmentName, int maxLevel, List<string> validItmes)
         {
             _enchantmentName = enchantmentName;
-            _displayName = MainWindow.formatMinecraftName(enchantmentName.Replace("minecraft:", ""));
+            _displayName = MainWindow.formatMinecraftName(enchantmentName.Replace("minecraft:", string.Empty));
             _maxLevel = maxLevel;
             _validItems = validItmes;
         }
