@@ -25,7 +25,7 @@ namespace Chested
         public MinecraftItem(string itemName, int stackSize, CroppedBitmap tile)
         {
             _itemName = itemName;
-            _displayName = MainWindow.formatMinecraftName(itemName.Replace("minecraft:", ""));
+            _displayName = MainWindow.formatMinecraftName(itemName.Replace("minecraft:", string.Empty));
             _stackSize = stackSize;
             _tile = tile;
         }
