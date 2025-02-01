@@ -8,7 +8,7 @@ namespace Chested
     public class MinecraftNBT
     {
         private readonly string _nbtTag;
-        private string nbtValue = "";
+        private string nbtValue = string.Empty;
 
         public MinecraftNBT(string nbtTag, string value)
         {
